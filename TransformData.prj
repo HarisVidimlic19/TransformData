@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1857281322" file="C:\Users\hvidi\Desktop\Changs Data\TransformData.prj" location="C:\Users\hvidi\Desktop\Changs Data" name="TransformData" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="1857281322" file="C:\Users\hvidi\Desktop\Changs App\TransformData.prj" location="C:\Users\hvidi\Desktop\Changs App" name="TransformData" target="target.mlapps" target-name="Package App">
     <param.appname>TransformData</param.appname>
     <param.authnamewatermark>Haris Vidimlic</param.authnamewatermark>
     <param.email>vidihari@student.ubc.ca</param.email>
@@ -8,7 +8,7 @@
     <param.icons />
     <param.summary>A GUI to help process your respective x and y data by some factor or offset</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\hvidi\AppData\Local\Temp\tp3730b9c7_44f9_4f6a_a245_2cb379f9b83a.png</param.screenshot>
+    <param.screenshot>C:\Users\hvidi\AppData\Local\Temp\tp27207592_eefb_432b_9b70_004ce152dec9.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name>
       <item>MATLAB</item>
@@ -35,12 +35,12 @@
     </fileset.main>
     <fileset.depfun>
       <file>${PROJECT_ROOT}\images\logo.png</file>
-      <file>${PROJECT_ROOT}\save_to_base.m</file>
+      <file>${PROJECT_ROOT}\Old Scripts\save_to_base.m</file>
     </fileset.depfun>
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\hvidi\Desktop" name="Changs Data" optional="false">C:\Users\hvidi\Desktop\Changs Data</file>
+      <file location="C:\Users\hvidi\Desktop" name="Changs App" optional="false">C:\Users\hvidi\Desktop\Changs App</file>
     </build-deliverables>
     <workflow />
     <matlab>
