@@ -1,6 +1,6 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="854377266" file="C:\Users\hvidi\Desktop\Changs Data\Transform Imported Data.prj" location="C:\Users\hvidi\Desktop\Changs Data" name="Transform Imported Data" target="target.mlapps" target-name="Package App">
-    <param.appname>Transform Imported Data</param.appname>
+  <configuration build-checksum="1857281322" file="C:\Users\hvidi\Desktop\Changs Data\TransformData.prj" location="C:\Users\hvidi\Desktop\Changs Data" name="TransformData" target="target.mlapps" target-name="Package App">
+    <param.appname>TransformData</param.appname>
     <param.authnamewatermark>Haris Vidimlic</param.authnamewatermark>
     <param.email>vidihari@student.ubc.ca</param.email>
     <param.company>SolarSpec</param.company>
@@ -8,11 +8,17 @@
     <param.icons />
     <param.summary>A GUI to help process your respective x and y data by some factor or offset</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\hvidi\AppData\Local\Temp\tpf43480ba_bf94_42fa_bde0_d7c2fc9eb7ab.png</param.screenshot>
+    <param.screenshot>C:\Users\hvidi\AppData\Local\Temp\tp3730b9c7_44f9_4f6a_a245_2cb379f9b83a.png</param.screenshot>
     <param.version>1.0</param.version>
-    <param.products.name />
-    <param.products.id />
-    <param.products.version />
+    <param.products.name>
+      <item>MATLAB</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.11</item>
+    </param.products.version>
     <param.platforms />
     <param.output>${PROJECT_ROOT}</param.output>
     <param.guid>4e665f66-f421-4099-8248-503af606b97c</param.guid>
@@ -21,9 +27,6 @@
       <param.icons />
       <param.description />
       <param.version />
-      <param.products.name />
-      <param.products.id />
-      <param.products.version />
       <param.platforms />
       <param.output />
     </unset>
@@ -32,6 +35,7 @@
     </fileset.main>
     <fileset.depfun>
       <file>${PROJECT_ROOT}\images\logo.png</file>
+      <file>${PROJECT_ROOT}\save_to_base.m</file>
     </fileset.depfun>
     <fileset.resources />
     <fileset.package />
